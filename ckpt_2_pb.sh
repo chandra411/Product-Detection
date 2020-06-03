@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python src/models/research/object_detection/export_inference_graph.py --input_type=image_tensor --pipeline_config_path=./models/single_anchor_ssd.config --trained_checkpoint_prefix=./checkpoint/model.ckpt-45880 --output_directory=./test_pb

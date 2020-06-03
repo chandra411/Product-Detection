@@ -1,0 +1,10 @@
+# python requirements
+numpy==1.17.4
+tensorflow==1.15
+Cython
+contextlib2
+pillow
+lxml
+jupyter
+matplotlib
+pycocotools
