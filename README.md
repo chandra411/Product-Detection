@@ -1,7 +1,7 @@
 # Product Detection with SSD
--Most of the codes are taken from [tensorflow models](https://github.com/tensorflow/models)
--Parameters and architecture followed from [Paper](https://arxiv.org/abs/1512.02325)
--Product data set taken from [Dataset](https://github.com/gulvarol/grocerydataset)
+- Most of the codes are taken from [tensorflow models](https://github.com/tensorflow/models)
+- Parameters and architecture followed from [Paper](https://arxiv.org/abs/1512.02325)
+- Product data set taken from [Dataset](https://github.com/gulvarol/grocerydataset)
 
 ![Teaser Image](https://github.com/chandra411/Product-Detection/blob/master/out.JPG)
 
