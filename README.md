@@ -1,7 +1,7 @@
 # Product Detection with SSD
-	Most of the codes are taken from tensorflow models https://github.com/tensorflow/models
-	Parameters and architecture followed from https://arxiv.org/abs/1512.02325 
-	Dataset taken from https://github.com/gulvarol/grocerydataset
+Most of the codes are taken from [tensorflow models](https://github.com/tensorflow/models)
+Parameters and architecture followed from [Paper](https://arxiv.org/abs/1512.02325)
+[Dataset](https://github.com/gulvarol/grocerydataset)
 
 ![Teaser Image](https://github.com/chandra411/Product-Detection/blob/master/out.JPG)
 
@@ -15,7 +15,7 @@
 	* export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim (If you want to add to the bash, please add this command to ~/.bashrc)
 	* source ~/.bashrc
 	* Change directory to the product_detection_chandrasekahr_pati
-
+Download initial weight model from [link](http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v1_coco_11_06_2017.tar.gz) then extract and place it in models folder
 ## Training 
 	* Data preparation
 		Use below sh files to create tf records
@@ -24,7 +24,6 @@
 		* Please provide respective data paths in the create_tf_records.sh file 
 	* Training network
 		All of the training cofigurations are defined in models/single_anchor_ssd.config, please go through the config file and edit {ropository root path} to your system current location
-		* download initial weight model from http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v1_coco_11_06_2017.tar.gz then extract and place it in models folder
 		*use below sh file to start training
 		sh train.sh
 		* User tensorbord with --model_dir to monitor training,
