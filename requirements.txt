@@ -1,6 +1,6 @@
 # python requirements
 numpy==1.17.4
-tensorflow==1.15
+tensorflow==1.15.4
 Cython
 contextlib2
 pillow
